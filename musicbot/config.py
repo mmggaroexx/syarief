@@ -33,9 +33,9 @@ class Config:
         self._confpreface = "An error has occured reading the config:\n"
         self._confpreface2 = "An error has occured validating the config:\n"
 
-        self._login_token = config.get('Credentials', 'ODg5MzgzOTc3NDMyMDE4OTQ1.YUgdYA.d6QNaqCtDsmVaabfde1-TLzoQuk', fallback=ConfigDefaults.token)
+        self._login_token = config.get('Credentials', 'ODg5MzgzOTc3NDMyMDE4OTQ1.YUgdYA.GESRGQ9YOgFR3Fxq6cMn_YjRggw', fallback=ConfigDefaults.token)
 
-        self.auth = ()
+        self.auth = ('889383977432018945')
 
         self.spotify_clientid = config.get('Credentials', '782276ba63e74ad38a520cdb14dc16e8', fallback=ConfigDefaults.spotify_clientid)
         self.spotify_clientsecret = config.get('Credentials', '01fbda047a2d4b90b6742dfbe48e7a02', fallback=ConfigDefaults.spotify_clientsecret)
